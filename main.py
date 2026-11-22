@@ -1145,5 +1145,4 @@ class TicketOpcoesGroup(app_commands.Group):
         if not options:
             await interaction.response.send_message("Nenhum tipo de atendimento cadastrado ainda.", ephemeral=True)
             return
-        embed = discord.Embed(title="📞 Tipos de atendimento", colo
 ... (128 KB restante(s))
